@@ -1,7 +1,3 @@
-<!--
-# -*- mode: jinja -*-
--->
-
 About r-tfestimators
 ====================
 
@@ -18,8 +14,15 @@ Summary: Interface to 'TensorFlow' Estimators  <https://www.tensorflow.org/progr
 Current build status
 ====================
 
-All platforms:
-[![noarch](https://img.shields.io/circleci/project/github/conda-forge/r-tfestimators-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/r-tfestimators-feedstock)
+
+<table><tr><td>All platforms:</td>
+    <td>
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=1720&branchName=master">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-tfestimators-feedstock?branchName=master">
+      </a>
+    </td>
+  </tr>
+</table>
 
 Current release info
 ====================
