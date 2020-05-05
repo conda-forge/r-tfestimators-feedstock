@@ -14,7 +14,7 @@ source:
 
 build:
   merge_build_host: True  # [win]
-  number: 1
+  number: 2
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -22,7 +22,7 @@ build:
 
 requirements:
   build:
-    - {{posix}}zip               # [win]
+    - {{ posix }}zip               # [win]
   host:
     - r-base
     - r-forge
@@ -62,6 +62,7 @@ about:
     a high-level  API that provides implementations of many different model types  including
     linear models and deep neural networks. '
   license_family: APACHE
+  license_file: LICENSE
 
 extra:
   recipe-maintainers:
