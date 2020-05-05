@@ -62,6 +62,7 @@ about:
     a high-level  API that provides implementations of many different model types  including
     linear models and deep neural networks. '
   license_family: APACHE
+  license_file: LICENSE
 
 extra:
   recipe-maintainers:
