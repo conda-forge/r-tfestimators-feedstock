@@ -1,4 +1,4 @@
-{% set version = '1.9.1' %}
+{% set version = "1.9.2" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/tfestimators_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/tfestimators/tfestimators_{{ version }}.tar.gz
-  sha256: b5d982045aafabf84ba2e164869763b0666ba8268920a9f682df79777c244335
+  sha256: afc435a060fe51a547d3085492bb97ffc1039efe3d872e58aac0aa42551792bf
 
 build:
-  merge_build_host: True  # [win]
-  number: 2
+  merge_build_host: true  # [win]
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -58,9 +58,7 @@ test:
 about:
   home: https://github.com/rstudio/tfestimators
   license: Apache-2.0
-  summary: 'Interface to ''TensorFlow'' Estimators  <https://www.tensorflow.org/programmers_guide/estimators>,
-    a high-level  API that provides implementations of many different model types  including
-    linear models and deep neural networks. '
+  summary: "Interface to 'TensorFlow' Estimators  <https://www.tensorflow.org/programmers_guide/estimators>, a high-level  API that provides implementations of many different model types  including linear models and deep neural networks. "
   license_family: APACHE
   license_file: LICENSE
 
