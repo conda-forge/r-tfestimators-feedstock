@@ -1,11 +1,11 @@
-About r-tfestimators
-====================
+About r-tfestimators-feedstock
+==============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-tfestimators-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/rstudio/tfestimators
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-tfestimators-feedstock/blob/main/LICENSE.txt)
 
 Summary: Interface to 'TensorFlow' Estimators  <https://www.tensorflow.org/programmers_guide/estimators>, a high-level  API that provides implementations of many different model types  including linear models and deep neural networks. 
 
