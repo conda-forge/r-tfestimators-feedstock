@@ -1,4 +1,4 @@
-{% set version = "1.9.2" %}
+{% set version = "1.9.3" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/tfestimators_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/tfestimators/tfestimators_{{ version }}.tar.gz
-  sha256: afc435a060fe51a547d3085492bb97ffc1039efe3d872e58aac0aa42551792bf
+  sha256: 5bbe6e4dd05a32a6be033767d0e649ce2bf2092a8637a1fb66db2508d1a77ec8
 
 build:
-  number: 3
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
